@@ -2,7 +2,7 @@
 ## Topic
 ### **The observation of lifestyle via the UGC website-Jianshu**
 
-Lifestyle is one of the most important thing to see people’s life quality. Moreover, with the development of electronic market, such as Alibaba, Xiaohongshu, it is significant for us to do some study regarding people’s lifestyle, which can have a better understanding of consumer insights and make profits.
+Lifestyle is one of the most important thing to see people’s life quality. Moreover, with the development of electronic markets, such as Alibaba, Xiaohongshu, it is significant for us to do some study regarding people’s lifestyle, which can have a better understanding of consumer insights and make profits.
 ## Data Source
 This dataset contains some new articles regarding lifestyle on Jianshu theme website: 
 https://www.jianshu.com/c/f6b4ca4bb891
@@ -21,6 +21,6 @@ https://www.jianshu.com/c/f6b4ca4bb891
 CC 4.0
 ## Obstacles & Solution
 1.	**Scroll the page.** 
-Being different from other websites which are page turning, Jianshu is the website that is vertical infinite scrolling. So the codes of page are changing every time. After ask my friend for help, I found that the XHR of Chrome DevTools can help me find the website when scrolling down the page. When I found the websites, it is the same as page turning.
+Being different from other websites which are page turning, Jianshu is the website that has vertical infinite scrolling. So the codes of pages are changing every time. After asked my friend for help, I found that the XHR of Chrome DevTools can help me find the website when scrolling down the page. When I found the websites, it is the same as page turning.
 2.	**Data Fields Information.**
 On the gather page, the articles only have a part of information I need, but other information, such as time, word, view, likes, you have to scrap them when clicking into the article. So I write a circulation about the website of all articles. Of course, the speed of collecting data will be lower because my PC have to scroll information by 2 steps.

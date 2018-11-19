@@ -17,7 +17,7 @@ In order to analyse better, I scrape the website again. The dataset is different
 ## License
 CC 4.0
 ## Drawbacks and Problems
-* The dataset is not rich enough
+* The dataset is not rich enough.
 * I scrape a lot of information, such as headline, abstract, website, word, view, like. But it is hard to classify them since the information is scattered. It does not like the case of OPENRICE which is easy to classify information. Therefore, it will be hard for me to do data analysis and find some interesting story.
 * With the development of Internet, there are a lot of cyberwords appeared. However,the jieba module have not update its word bank frequently. Therefore, the popular word '双十一'could not be identified by jieba.
 ## Reference
